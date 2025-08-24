@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import logo from '../images/logo.png';
-import { SignedIn, SignedOut, SignIn, SignInButton, UserButton } from '@clerk/nextjs';
+import { SignedIn, SignedOut, SignInButton, UserButton } from '@clerk/nextjs';
 import SearchBar from './SearchBar';
 
 const Header = () => {

@@ -31,6 +31,7 @@ export default function SellerDashboard() {
   const isReadyToAcceptPayments =
     accountStatus?.isActive && accountStatus?.payoutsEnabled;
 
+    
   useEffect(() => {
     if (stripeConnectId) {
       fetchAccountStatus();
